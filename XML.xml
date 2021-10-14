@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tabakovy_priemysel>
+	<Philip_Morris_International>
+		<Rok_zalozenia> 1847 </Rok_zalozenia>
+		<Ustredie> Svajciarsko: Lausanne </Ustredie>
+		<Celkovy_penazny_brat rok="2019"> 77,921 miliardy $ </Celkovy_penazny_brat>
+		<Cisty_zisk rok="2019">7,728 miliardy $ </Cisty_zisk>
+		<Stranka> https://www.itcportal.com </Stranka>
+		<Znacky>
+			<Vykurovacie_zariadenia>
+				<Jednotliva_znacka> IQOS </Jednotliva_znacka>
+			</Vykurovacie_zariadenia>
+			<Cigarety>
+			
+				<Jednotliva_znacka>Marlboro</Jednotliva_znacka>
+				<Jednotliva_znacka>L and M</Jednotliva_znacka>
+				<Jednotliva_znacka>Bond</Jednotliva_znacka>
+				<Jednotliva_znacka>Cesterfield</Jednotliva_znacka>
+				<Jednotliva_znacka>Parlament</Jednotliva_znacka>
+			</Cigarety>
+		</Znacky>
+	</Philip_Morris_International>
+	<British_American_Tobacco>
+		<Rok_zalozenia> 1902 </Rok_zalozenia>
+		<Ustredie> Veľká Británia, Londýn  </Ustredie>
+		<Celkovy_penazny_brat rok="2019"> 35,408 miliardy $ </Celkovy_penazny_brat>
+		<Cisty_zisk rok="2019">8,003 miliardy $ </Cisty_zisk>
+		<Stranka> https://www.bat.com </Stranka>
+		<Znacky>
+			<Vykurovacie_zariadenia>
+				<Jednotliva_znacka> GLO </Jednotliva_znacka>
+			</Vykurovacie_zariadenia>
+			<Cigarety>
+				<Jednotliva_znacka>Dunhill</Jednotliva_znacka>
+				<Jednotliva_znacka>Kent</Jednotliva_znacka>
+				<Jednotliva_znacka>Lucky Strike</Jednotliva_znacka>
+				<Jednotliva_znacka>Pall Mall</Jednotliva_znacka>
+				<Jednotliva_znacka>Rothmans</Jednotliva_znacka>
+			</Cigarety>
+			<Ostatne_tabakove_vyrobky>
+				<Jednotliva_znacka>Velo</Jednotliva_znacka>
+			</Ostatne_tabakove_vyrobky>
+			<Vape>
+			
+				<Jednotliva_znacka>Vype </Jednotliva_znacka>
+				<Jednotliva_znacka>Vuse</Jednotliva_znacka>
+			</Vape>
+		</Znacky>
+	</British_American_Tobacco>
+	<Altria_Group>
+		<Rok_zalozenia> 1860 </Rok_zalozenia>
+		<Ustredie> USA: Henriko  </Ustredie>
+		<Celkovy_penazny_brat rok="2010"> 16,892 miliardy $ </Celkovy_penazny_brat>
+		<Cisty_zisk rok="2010">3,89 miliardy $ </Cisty_zisk>
+		<Stranka> https://www.altria.com/en </Stranka>
+		<Znacky>
+			<Cigarety>
+				<Jednotliva_znacka>Marlboro </Jednotliva_znacka>
+				<Jednotliva_znacka>Black and Mild</Jednotliva_znacka>
+				<Jednotliva_znacka>Copenhagen </Jednotliva_znacka>
+				<Jednotliva_znacka>Skoal</Jednotliva_znacka>
+			</Cigarety>
+			<Ostatne_tabakove_vyrobky>
+				<Jednotliva_znacka>on!</Jednotliva_znacka>
+			</Ostatne_tabakove_vyrobky>
+		</Znacky>
+	</Altria_Group>
+	<Japan_Tobacco>
+		<Rok_zalozenia> 1985 </Rok_zalozenia>
+		<Ustredie> Japonsko Tokio  </Ustredie>
+		<Celkovy_penazny_brat rok="2019"> 21,399 miliardy $ </Celkovy_penazny_brat>
+		<Cisty_zisk rok="2019">3,421 miliardy $ </Cisty_zisk>
+		<Stranka> https://www.jti.com </Stranka>
+		<Znacky>
+			<Cigarety>
+				<Jednotliva_znacka>Mevius </Jednotliva_znacka>
+				<Jednotliva_znacka>Peace</Jednotliva_znacka>
+				<Jednotliva_znacka>Winston </Jednotliva_znacka>
+				<Jednotliva_znacka>Camel</Jednotliva_znacka>
+				<Jednotliva_znacka>Sobranie</Jednotliva_znacka>
+				<Jednotliva_znacka>LD</Jednotliva_znacka>
+			</Cigarety>
+		</Znacky>
+	</Japan_Tobacco>
+</Tabakovy_priemysel>
