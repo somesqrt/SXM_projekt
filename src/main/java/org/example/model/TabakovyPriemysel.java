@@ -7,7 +7,7 @@ public class TabakovyPriemysel {
 
 	private String region;
 
-	private final List<Company> companies = new ArrayList<>();
+	private final List<Company2> companies = new ArrayList<>();
 
 	public String getRegion() {
 		return region;
@@ -17,7 +17,7 @@ public class TabakovyPriemysel {
 		this.region = region;
 	}
 
-	public List<Company> getCompanies() {
+	public List<Company2> getCompanies() {
 		return companies;
 	}
 
@@ -33,7 +33,7 @@ public class TabakovyPriemysel {
 	public void vypis() {
 		System.out.println("Region: " + getRegion());
 		System.out.println("Company: ");
-		for (Company student : companies) {
+		for (Company2 student : companies) {
 			student.vypis();
 		}
 	}

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Tabakovy_priemysel>
-	<Philip_Morris_International>
+<TabakovyPriemysel>
+	<Company>
+		<Nazov>Philip_Morris_International</Nazov>>
 		<Rok_zalozenia> 1847 </Rok_zalozenia>
 		<Ustredie> Svajciarsko: Lausanne </Ustredie>
 		<Celkovy_penazny_brat rok="2019"> 77,921 miliardy $ </Celkovy_penazny_brat>
@@ -19,8 +20,9 @@
 				<Jednotliva_znacka>Parlament</Jednotliva_znacka>
 			</Cigarety>
 		</Znacky>
-	</Philip_Morris_International>
-	<British_American_Tobacco>
+	</Company>
+	<Company>
+		<Nazov>British_American_Tobacco</Nazov>>
 		<Rok_zalozenia> 1902 </Rok_zalozenia>
 		<Ustredie> Veľká Británia, Londýn  </Ustredie>
 		<Celkovy_penazny_brat rok="2019"> 35,408 miliardy $ </Celkovy_penazny_brat>
@@ -41,13 +43,14 @@
 				<Jednotliva_znacka>Velo</Jednotliva_znacka>
 			</Ostatne_tabakove_vyrobky>
 			<Vape>
-			
+
 				<Jednotliva_znacka>Vype </Jednotliva_znacka>
 				<Jednotliva_znacka>Vuse</Jednotliva_znacka>
 			</Vape>
 		</Znacky>
-	</British_American_Tobacco>
-	<Altria_Group>
+	</Company>
+	<Company>
+		<Nazov>Altria_Group</Nazov>
 		<Rok_zalozenia> 1860 </Rok_zalozenia>
 		<Ustredie> USA: Henriko  </Ustredie>
 		<Celkovy_penazny_brat rok="2010"> 16,892 miliardy $ </Celkovy_penazny_brat>
@@ -64,8 +67,9 @@
 				<Jednotliva_znacka>on!</Jednotliva_znacka>
 			</Ostatne_tabakove_vyrobky>
 		</Znacky>
-	</Altria_Group>
-	<Japan_Tobacco>
+	</Company>
+	<Company>
+		<Nazov>Japan_Tobacco</Nazov>
 		<Rok_zalozenia> 1985 </Rok_zalozenia>
 		<Ustredie> Japonsko Tokio  </Ustredie>
 		<Celkovy_penazny_brat rok="2019"> 21,399 miliardy $ </Celkovy_penazny_brat>
@@ -81,5 +85,5 @@
 				<Jednotliva_znacka>LD</Jednotliva_znacka>
 			</Cigarety>
 		</Znacky>
-	</Japan_Tobacco>
-</Tabakovy_priemysel>
+	</Company>
+</TabakovyPriemysel>

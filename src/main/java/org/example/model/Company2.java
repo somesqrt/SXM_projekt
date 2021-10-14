@@ -3,24 +3,41 @@ package org.example.model;
 import java.util.*;
 
 
-public class Company {
+public class Company2 {
 
-	private String Nazov;
-
-
-	private String Rok_zalozenia;
+	 String Nazov;
 
 
-	private String Ustredie;
+	 String Rok_zalozenia;
 
 
-	private Brat Celkovy_penazny_brat;
+	 String Ustredie;
 
 
-	private Zisk Cisty_zisk;
+	Brat brat;
 
 
-	private String Stranka;
+	Zisk zisk;
+
+
+	 String Stranka;
+
+	static class Brat{
+		String hodnota;
+
+		String rok;
+
+	}
+
+	static class Zisk {
+
+		 String hodnota;
+
+		 String rok;
+	}
+
+
+
 
 
 	private List<Znacky> znackies = new ArrayList<>();
@@ -48,24 +65,24 @@ public class Company {
 	public void setUstredie(String ustredie) {
 		this.Ustredie = ustredie;
 	}
-
+/*
 	public String getCelkovy_penazny_brat() {
 		return Celkovy_penazny_brat.getHodnota();
 	}
 
-	public int getCelkovy_penazny_brat_rok() {
+	public String getCelkovy_penazny_brat_rok() {
 		return Celkovy_penazny_brat.getRok();
 	}
 
 	public void setCelkovy_penazny_brat(String celkovy_penazny_brat) {this.Celkovy_penazny_brat.setHodnota(celkovy_penazny_brat);}
 
-	public void setCelkovy_penazny_brat_rok(int celkovy_penazny_brat_rok) {this.Celkovy_penazny_brat.setRok(celkovy_penazny_brat_rok);}
+	public void setCelkovy_penazny_brat_rok(String celkovy_penazny_brat_rok) {this.Celkovy_penazny_brat.setRok(celkovy_penazny_brat_rok);}
 
 	public String getCisty_zisk() {
 		return Cisty_zisk.getHodnota();
 	}
 
-	public int getCisty_zisk_rok() {
+	public String getCisty_zisk_rok() {
 		return Cisty_zisk.getRok();
 	}
 
@@ -73,9 +90,9 @@ public class Company {
 		this.Cisty_zisk.setHodnota(cisty_zisk);
 	}
 
-	public void setCisty_zisk_rok(int cisty_zisk_rok) {
+	public void setCisty_zisk_rok(String cisty_zisk_rok) {
 		this.Cisty_zisk.setRok(cisty_zisk_rok);
-	}
+	}*/
 
 	public String getStranka() {
 		return Stranka;
@@ -91,7 +108,7 @@ public class Company {
 
 	public void vypis() {
 		System.out.println(Nazov + " (" + Rok_zalozenia + ") Celkovy_penazny_brat"
-				+ Celkovy_penazny_brat + ", Cisty_zisk: " + Cisty_zisk + ")");
+				+ brat + ", Cisty_zisk: " + zisk + ")");
 		if (Stranka != null) {
 			System.out.println("  Web: " + Stranka);
 		}
